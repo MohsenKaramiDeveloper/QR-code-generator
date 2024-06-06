@@ -11,6 +11,6 @@ generateBtn.addEventListener('click' , () => {
     }
     qrCodeBox.classList.remove('hidden')
 
-    qrImage.crs = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`
+    qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`
 })
 
