@@ -10,6 +10,16 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #e9e19b64;
+    background: #c79be986;
+
+}
+.container{
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
