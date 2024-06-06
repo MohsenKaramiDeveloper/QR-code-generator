@@ -9,8 +9,13 @@ generateBtn.addEventListener('click' , () => {
     if(!qrValue){
         return alert( 'please inter your text or link')
     }
-    qrCodeBox.classList.remove('hidden')
+    
 
     qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrValue}`
+
+    qrImage.addEventListener('load', ()=> {
+        qrCodeBox.classList.remove('hidden')
+
+    })
 })
 
