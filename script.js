@@ -5,5 +5,9 @@ const qrImage = document.querySelector('.qr-code img');
 
 
 generateBtn.addEventListener('click' , () => {
+    let qrValue = qrInput.value;
+    if(!qrValue){
+        return alert( 'please inter your text or link')
+    }
     qrCodeBox.classList.remove('hidden')
 })
