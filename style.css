@@ -31,11 +31,15 @@ body{
 .container form :where(input , button){
     width: 100%;
     padding: 10px;
-    border: 0;
+    border: 1px solid #999;
     margin: 5px;
     font-size: 16px;
     text-align: center;
     border-radius: 5px;
 
 
+}
+.container form button{
+    background-color: #c79be986;
+    
 }
