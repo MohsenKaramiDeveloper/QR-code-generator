@@ -20,3 +20,9 @@ generateBtn.addEventListener('click' , () => {
     })
 })
 
+qrInput.addEventListener('keyup' , ( =.{
+    if (!qrInput.value){
+        
+
+    }
+}))
