@@ -15,7 +15,7 @@ generateBtn.addEventListener('click' , () => {
 
     qrImage.addEventListener('load', ()=> {
         qrCodeBox.classList.remove('hidden')
-        // generateBtn.innerText = 'It is Your QR Code'
+        generateBtn.innerText = 'It is Your QR Code'
 
     })
 })
