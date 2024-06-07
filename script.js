@@ -22,7 +22,7 @@ generateBtn.addEventListener('click' , () => {
 
 qrInput.addEventListener('keyup' , () => {
     if (!qrInput.value){
-        // qrCodeBox.classList.add('hidden')
+        qrCodeBox.classList.add('hidden')
 
     }
 })
