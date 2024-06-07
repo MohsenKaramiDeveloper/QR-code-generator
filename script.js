@@ -20,9 +20,9 @@ generateBtn.addEventListener('click' , () => {
     })
 })
 
-qrInput.addEventListener('keyup' , ( =.{
+qrInput.addEventListener('keyup' , () => {
     if (!qrInput.value){
-        
+        // qrCodeBox.classList.add('hidden')
 
     }
-}))
+})
